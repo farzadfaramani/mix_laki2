@@ -1,7 +1,8 @@
 {
-    "port" : "5000",
-    "pythonVersion" : "3.10",
-    "installCommand" : "pip install -r requirements.text",
-    "startCommand" : "gunicorn app:app",
-    "buildDirectory" : "."
+  "app": "app",
+  "port": 5000,
+  "build": {
+    "location": "iran"
+  },
+  "disks": []
 }
